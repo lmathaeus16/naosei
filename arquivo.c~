@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+
+	FILE *file;
+	file = freopen("Arquivo1.txt","w+");
+	if (file == NULL){
+		printf("Fudeu");
+		exit}
+	char arq[100];
+	fprintf(file,100);
+
+	fclose(file)
+return 0;}
